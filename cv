@@ -1,0 +1,128 @@
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Tushar Mondal} % Your name
+% You can merge both of these into a single line, if you do not have a website.
+\address{+91-8597543528 \\ Kharagpur, India} 
+\address{\href{mailto:tusharmondal@kgpian.iitkgp.ac.in}{tusharmondal@kgpian.iitkgp.ac.in} \\ \href{https://www.linkedin.com/in/tushar-mondal/}{linkedin.com/in/tushar-mondal/} \\ \href{https://github.com/tusharmondal2002}{github.com/tusharmondal2002}}  %
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Indian Institute of Technology (IIT), Kharagpur } \hfill {December 2021- Present}\\
+Bachelor of Architecture, Architecture and Regional Planning, GPA: 8.3/10
+
+{\bf Jawahar Navodaya Vidyalaya, East Medinipur} \hfill {May 2018 - April 2020}
+\\ Class 12, Central Board of Secondary Education (CBSE), GPA: 8.5/10
+
+{\bf Jawahar Navodaya Vidyalaya, East Medinipur} \hfill {May 2017 - April 2018}
+\\ Class 10, Central Board of Secondary Education (CBSE), GPA: 8.2/10
+
+%Minor in Linguistics \smallskip \\
+%Member of Eta Kappa Nu \\
+%Member of Upsilon Pi Epsilon \\
+\begin{rSection}{PROJECTS}
+\vspace{-1.25em}
+\item \textbf{Image to sound conversion using Machine Learning Algorithms | Self Project}
+\\
+\textit{{Objective - Build a Machine Learning model to convert an image into audible sounds} }
+\begin{itemize}
+\item Instrumented Optical character recognition (OCR) and speech synthesis in python by building a project that will be converting an image into audible sounds, combining both OCR and SPeech synthesis in one application.
+\item Implemented and processed calculations using pytesseract and google text to sound library.
+\item Used Python libraries such as NumPy, pandas, matplotlib, and Scikit -Learn for loading and processing of data and data visualization.\\
+\end{itemize}
+
+\item \textbf{Facemask-Detection using Machine Learning Techniques | Self Project}
+\\
+\textit{{Objective - Build a Machine Learning model to determine whether or not a user is wearing a mask } }
+\begin{itemize}
+\item   {Used an Artificial Network to determine whether or not a user is wearing a mask. To detect people without masks, the software may be linked to any existing or new IP mask detection cameras}
+\item   {Users of the app may also add faces and phone numbers to get notifications if the people around them are not wearing a mask. A notification can be issued to the administrator if the camera records an unidentified face.}
+\item   {Used Python libraries such as NumPy, OpenCV, matplotlib, and Scikit-Learn for loading and processing of data and data visualization as well as an XML file and PNG image for implementation.}
+\end{itemize}
+
+\end{rSection}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% TECHINICAL STRENGTHS	
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SKILLS SUMMARY}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages & | Python, C, C++, Java, HTML, CSS, SQL, Matlab, \LaTeX
+\\
+Machine Learning Libraries & | Numpy, Matplotlib, Tensorflow, Keras\\
+Development Frameworks and Databases & | Django, NodeJS, ReactJS, MongoDB, MySQL\\
+Operating Systems & | Linux, Mac, Windows\\
+Integrated Development Environments & | Visual Studio Code, Jupyter Notebook, Matlab, Google Colab
+\end{tabular}\\
+\end{rSection}
+
+\begin{rSection}{COURSEWORK} \\
+\begin{itemize}
+    \item \textbf{IIT KHARAGPUR :} Programming and Data Structures (CS10003), Programming and Data Structures Laboratory (CS19003),
+Linear Algebra (MA11004), Indigenous Technologies and Innovations Workshop (AR23304), Economics (HS21201), Computer
+Aided Design and Simulation (AR23303) 
+    \item \textbf{MOOCs:}   STATS 110(Stanford) — Machine Learning, DeepLearning.AI(Coursera) — Deep Learning
+\end{itemize}
+
+
+\end{rSection}
+
+
+
+
+
+\begin{rSection}{POSITION OF RESPONSIBILITIES (POR)}
+\begin{itemize}
+    \item \textbf{Students' Alumni Cell, IIT Kharagpur :}\hfill{Public Relations Team Member}\\\\ 
+• Working under Dean Outreach and Alumni Affairs to improve interaction among 10,000+ students and 40,000+ Alumni.\\
+• Organized the 3-day flagship event, 19th Annual Alumni Meet, for batches of 1973, 1983 and 1998 witnessing a 300+ footfall. \\
+• Designed the Institute's Yearbook for the 68th Convocation of IIT Kharagpur, which was presented to a batch of 2600+ students.\\
+
+    \item \textbf{Lal Bahadur Shastri Hall of Residence :}\hfill{Secretary, Mess}\\\\
+    • Responsible for overseeing all the Mess related activities and fulﬁlling all the required facilities for 2000+ borders.\\
+• Ensured adequate and healthy nutrition of all boarders of Lal Bahadur Shastri Hall by optimizing the day to day menu. \\
+• Eﬃciently managed an annual mess budget through proper planning.\\
+•  Handled complaints from boarders by communicating with the mess staﬀ and catering service providers.\\
+
+
+\end{itemize}
+
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Extra Curricular Activities}
+\begin{itemize}
+    \item \textbf{Gopali Youth Welfare Society (GYWS) | NGO}\hfill {|Social Work}\\\\
+    •  Junior Executive Member at Gopali Youth Welfare Society (GYWS),  a non-government organization (NGO) run by a team of students and professors of IIT Kharagpur, with assistance from local social enthusiasts.\\\\
+     \item \textbf{Druheen | Bengali Technology Dramatics Society}\hfill {|Dramatics}\\\\
+    •  Perfomed the drama named “Khela” written by Sisir Kumar Das as a freshers’ production of Druheen. Technology Dramatics Society
+Druheen is one of the oldest societies of IIT Kharagpur, is a
+dedicated group of young IITians producing theatrical plays in Bengali.\\\\
+\end{itemize}
+
+
+
+\end{rSection}
+
+
+\end{document}
